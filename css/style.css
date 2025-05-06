@@ -20,7 +20,7 @@ html {
   }
   .carousel-caption {
     position: absolute;
-    right: 40%;
+    width: 100%;
     top: 0%;
     left: 0%;
     bottom:0%;
