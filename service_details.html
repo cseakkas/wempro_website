@@ -27,6 +27,12 @@
   <!-- WOW.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
    
+  <style>
+     .service-details { border-right: 1px solid #ddd; }
+      .service-sidebar { background-color: #f8f9fa; padding: 20px; }
+      .service-sidebar a { text-decoration: none; display: block; padding: 10px 0; color: #333; }
+      .service-sidebar a:hover { background-color: #ddd; }
+  </style>
 </head>
 <body>
  
@@ -35,42 +41,34 @@
 
   <div class="container mt-5">
     <div class="row">
-        <div class="col-md-8 offset-md-2">
-            <div class="card">
-                <div class="card-header">
-                    <h2 class="card-title">Web Development Services</h2>
-                    <p class="card-subtitle text-muted">High-quality web development solutions tailored for your business.</p>
-                </div>
-                <div class="card-body">
-                    <h4 class="mb-4">Service Description</h4>
-                    <p>
-                        Our Web Development services offer custom solutions to help your business establish a strong online presence. We specialize in creating responsive, fast, and secure websites with the latest technologies. Whether you need a simple website or a complex web application, our team has the expertise to bring your vision to life.
-                    </p>
+        <!-- Left: Service Details -->
+        <div class="col-md-8 service-details">
+            <h2>Web Development Service</h2>
+            <img src="images/service.jpg" alt="Web Development" class="img-fluid mb-4">
+            <p>
+                Our expert team offers custom web development services that help businesses create scalable, secure, and responsive websites. We use cutting-edge technologies to deliver user-friendly experiences that align with your business goals.
+            </p>
+            <h4>Service Features</h4>
+            <ul>
+                <li>Custom web designs</li>
+                <li>Mobile responsive layouts</li>
+                <li>SEO optimization</li>
+                <li>Post-launch support</li>
+            </ul>
+            <h4>Why Choose Us?</h4>
+            <p>
+                Our team is committed to delivering quality services with a focus on user experience, security, and performance. We aim to help you grow your online presence with impactful solutions.
+            </p>
+        </div>
 
-                    <h4 class="mt-4 mb-3">Service Features</h4>
-                    <ul>
-                        <li>Custom web design and development.</li>
-                        <li>Responsive and mobile-friendly layouts.</li>
-                        <li>SEO optimization for better search engine visibility.</li>
-                        <li>Secure and scalable web applications.</li>
-                        <li>Integration with third-party services and APIs.</li>
-                    </ul>
-
-                    <h4 class="mt-4 mb-3">Benefits of Our Web Development Service</h4>
-                    <ul>
-                        <li>Increase your online visibility and customer reach.</li>
-                        <li>Enhance user experience and engagement.</li>
-                        <li>Build a robust and scalable online presence.</li>
-                        <li>Get ongoing support and maintenance for your website.</li>
-                        <li>Improve brand credibility and professionalism.</li>
-                    </ul>
-
-                    <div class="mt-4">
-                        <a href="#" class="btn btn-primary">Request a Quote</a>
-                        <a href="#" class="btn btn-secondary">Back to Services</a>
-                    </div>
-                </div>
-            </div>
+        <!-- Right: Sidebar for all services -->
+        <div class="col-md-4 service-sidebar">
+            <h4>All Services</h4>
+            <a href="/service/1">Web Development</a>
+            <a href="/service/2">Mobile App Development</a>
+            <a href="/service/3">SEO Services</a>
+            <a href="/service/4">Digital Marketing</a>
+            <a href="/service/5">UI/UX Design</a>
         </div>
     </div>
 </div>
