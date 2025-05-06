@@ -28,10 +28,26 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
    
   <style>
-     .service-details { border-right: 1px solid #ddd; }
-      .service-sidebar { background-color: #f8f9fa; padding: 20px; }
-      .service-sidebar a { text-decoration: none; display: block; padding: 10px 0; color: #333; }
-      .service-sidebar a:hover { background-color: #ddd; }
+      .service-sidebar {
+          background-color: #f8f9fa;
+          padding: 20px;
+          border-radius: 8px;
+      }
+      .service-sidebar a {
+          text-decoration: none;
+          display: block;
+          padding: 10px 0;
+          color: #333;
+          font-size: 16px;
+      }
+      .service-sidebar a:hover {
+          background-color: #007bff;
+          color: white;
+      }
+      .service-sidebar i {
+          margin-right: 10px;
+          color: #007bff;
+      }
   </style>
 </head>
 <body>
@@ -42,11 +58,14 @@
   <div class="container mt-5">
     <div class="row">
         <!-- Left: Service Details -->
-        <div class="col-md-8 service-details">
+        <div class="col-md-9 service-details">
             <h2>Web Development Service</h2>
             <img src="images/service.jpg" alt="Web Development" class="img-fluid mb-4">
             <p>
                 Our expert team offers custom web development services that help businesses create scalable, secure, and responsive websites. We use cutting-edge technologies to deliver user-friendly experiences that align with your business goals.
+            </p>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, a odio est molestiae, natus suscipit error, dicta totam ipsum laboriosam possimus? Voluptatum veritatis laudantium harum corrupti ut tempore totam, perferendis quo ex. Doloremque dolores provident corporis accusantium laborum? Delectus esse molestiae totam facere saepe velit quidem soluta consequuntur! Dolores possimus tempora harum iure minima numquam illum! Vero, magni! Doloremque dolorum perspiciatis nam. Fugit eveniet autem dolore optio hic quibusdam quidem nisi, ex, labore minus voluptate impedit asperiores dolor. Ad est ut vero minus ipsam error debitis praesentium facilis neque odio minima placeat nisi, ab libero hic modi, alias facere beatae.
             </p>
             <h4>Service Features</h4>
             <ul>
@@ -62,14 +81,18 @@
         </div>
 
         <!-- Right: Sidebar for all services -->
-        <div class="col-md-4 service-sidebar">
+        <div class="col-md-3 service-sidebar">
             <h4>All Services</h4>
+            <a href="/service/1">Software Development</a>
             <a href="/service/1">Web Development</a>
             <a href="/service/2">Mobile App Development</a>
             <a href="/service/3">SEO Services</a>
             <a href="/service/4">Digital Marketing</a>
             <a href="/service/5">UI/UX Design</a>
+            <a href="/service/5">Ecommerce Development</a>
         </div>
+   
+
     </div>
 </div>
 
