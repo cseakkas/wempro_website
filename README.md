@@ -20,55 +20,11 @@
 - **Database**: MySQL / PostgreSQL
 - **Admin**: Django Admin / Custom Panel
 - **Deployment**: Gunicorn, Nginx, Ubuntu VPS
-
-## 🧩 Folder Structure
-```
-wempro/
-├── static/
-│   ├── css/
-│   ├── js/
-│   └── img/
-├── templates/
-│   ├── home/
-│   ├── services/
-│   ├── portfolio/
-│   └── contact/
-├── wempro/
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-├── manage.py
-└── README.md
-```
-
-## ⚙️ Installation (Development)
-```bash
-git clone https://github.com/yourusername/wempro.git
-cd wempro
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
-```
-
-## 🔐 Environment Variables
-Create a `.env` file in the root directory:
-```
-DEBUG=True
-SECRET_KEY=your-secret-key
-ALLOWED_HOSTS=127.0.0.1, localhost
-DATABASE_URL=your-database-url
-EMAIL_HOST=smtp.example.com
-EMAIL_PORT=587
-EMAIL_HOST_USER=you@example.com
-EMAIL_HOST_PASSWORD=your-email-password
-```
-
+ 
 ## 📬 Contact
 For support or inquiries:
-- Email: support@wempro.com
+- Email: info@wempro.com
 - Website: [https://wempro.com](https://wempro.com)
+- BD Address: City Center, Motijheel, Dhaka, Bangladesh.
+- USA Address: 470 Harvest Park Dr. Suite E, Brentwood, CA 94513
 
-## 📄 License
-This project is licensed under the [MIT License](LICENSE).
