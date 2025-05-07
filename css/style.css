@@ -48,7 +48,6 @@ h4 {
 }
 
 .service-card {
-  background: linear-gradient(-51deg, #c7eff1, #ffffff, #ffffff, #ffffff);
   border: none;
   border-radius: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
