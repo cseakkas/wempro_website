@@ -1,0 +1,144 @@
+.hero-section {
+    position: relative;
+    max-height: 568px;
+    overflow: hidden;
+}
+
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,
+    rgba(0, 40, 82, 0.95) 45%,
+    rgba(0, 82, 147, 0.4) 100%
+    );
+
+    z-index: 2;
+}
+
+.content-column {
+    position: relative;
+    z-index: 3;
+    color: white;
+    padding: 2rem 6.5rem;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.slider-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.slide {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease;
+    background-size: cover;
+    background-position: center;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.cta-buttons .btn {
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin: 0 10px 15px 0;
+}
+
+.slider-controls {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.dots-container {
+    display: flex;
+    gap: 8px;
+    margin-top: 1.5rem;
+}
+
+.dot-indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dot-indicator.active {
+    background: #fff;
+    transform: scale(1.2);
+}
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+    color: white;
+    transition: all 0.3s ease;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-button:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.prev-btn {
+    left: 2rem;
+}
+
+.next-btn {
+    right: 2rem;
+}
+
+@media (max-width: 992px) {
+    .content-column {
+        min-height: auto;
+        padding: 3rem 1rem;
+        text-align: center;
+    }
+
+    .cta-buttons .btn {
+        width: 100%;
+        margin: 0 0 15px 0;
+        padding: 8px 16px;
+        display: inline-block;
+    }
+
+    .dots-container {
+        justify-content: center;
+    }
+
+    .nav-button {
+        width: 36px;
+        height: 36px;
+        top: 40%;
+    }
+
+    .title {
+        font-size: 1.8rem !important;
+        font-weight: 700 !important;
+    }
+}
