@@ -31,31 +31,39 @@
 
 <div id="header"></div>
 
-<!-- Slider -->
-<section id="home">
-  <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="images/banner-1.jpg" class="d-block w-100" alt="Slide 1">
-        <div class="carousel-caption d-none d-md-block">
-          <h2 class="animate__animated animate__fadeInDown">Welcome to Wempro</h2>
-          <p class="animate__animated animate__fadeInUp">We build awesome tech solutions</p>
-        </div>
+<section class="hero-section">
+  <div class="slider-container">
+      <div class="slide active" style="background-image: url('images/slide1.jpg')"></div>
+      <div class="slide" style="background-image: url('images/slide2.jpg')"></div>
+      <div class="slide" style="background-image: url('images/slide3.jpg')"></div>
+  </div>
+  
+  <div class="gradient-overlay"></div>
+  
+  <button class="nav-button prev-btn">‹</button>
+  <button class="nav-button next-btn">›</button>
+
+  <div class="container-fluid h-100">
+      <div class="row h-100">
+          <!-- Content Column -->
+          <div class="col-lg-6 content-column">
+              <div class="content-inner">
+                  <p class="lead mb-4 ml-3"><i class="fa-solid fa-shield-halved  me-2"></i> Powering your growth with tech.</p>
+                  <h1 class="title mb-3 tw-bold mb-5 fs-1">
+                      <span>Build Scalable and Reliable Software Solutions</span><br>
+                      <span>with the Experts at Wempro</span>
+                  </h1>    
+                  <div class="cta-buttons">
+                      <button class="btn btn-light">Explore Department</button>
+                      <button class="btn btn-outline-light">Meet Our Doctors</button>
+                  </div>
+
+                  <div class="slider-controls">
+                      <div class="dots-container"></div>
+                  </div>
+              </div>
+          </div>
       </div>
-      <div class="carousel-item">
-        <img src="images/banner-2.jpg" class="d-block w-100" alt="Slide 2">
-        <div class="carousel-caption d-none d-md-block">
-          <h2 class="animate__animated animate__fadeInDown">Creative Projects</h2>
-          <p class="animate__animated animate__fadeInUp">Innovative and reliable service delivery</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
   </div>
 </section>
 
