@@ -368,3 +368,66 @@ h4 {
   opacity: 0.7 !important;
   transition: all 0.3s ease;
 }
+
+
+/* new css */
+.vision-section-title {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.vision-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.core-values {
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.accordion-item {
+  border: 0px !important;
+  margin-bottom: 8PX;
+}
+
+.accordion-header {
+  background: #f9f9f9;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.toggle-btn {
+  border: 1.5px solid #000;
+  background: transparent;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.accordion-body {
+  padding: 16px;
+  display: none;
+  background: #E9E9E9;
+}
+
+.accordion-item.active .accordion-body {
+  display: block;
+}
+
+.accordion-item.active .toggle-btn {
+  content: '−';
+}
+
+.divider {
+  border-top: 1px solid #dee2e6;
+  margin: 3rem 0;
+}
