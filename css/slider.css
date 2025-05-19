@@ -25,7 +25,7 @@
     padding: 2rem 6.5rem;
     display: flex;
     align-items: center;
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 .slider-container {
