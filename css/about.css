@@ -17,7 +17,7 @@
   .wempro-team-section .card-img-top {
     border-radius: 0;
     object-fit: cover;
-    height: 250px;
+    height: 360px;
     transition: transform 0.4s ease;
   }
   
