@@ -436,12 +436,18 @@ h4 {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
 .product-card .card-img-top {
-  height: 200px; /* Or your preferred height */
-  object-fit: contain; /* Ensures the image covers the area without distortion */
-  border-top-left-radius: calc(
-    0.375rem - 1px
-  ); /* Bootstrap card image top radius */
+  height: 200px;
+  object-fit: contain;
+  border-top-left-radius: calc(0.375rem - 1px);
   border-top-right-radius: calc(0.375rem - 1px);
+}
+.p-img-container {
+  height: 240px;
+  background: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media (max-width: 768px) {
   .custom-mt-570 {
@@ -450,34 +456,34 @@ h4 {
   .about-media {
     display: block;
     width: 100% !important;
-    .about-image img{
+    .about-image img {
       width: 100% !important;
     }
     .about-content {
       width: 100% !important;
     }
   }
-  .client-image img{
+  .client-image img {
     width: 100% !important;
   }
   .divider {
     margin: 1.8rem 0;
   }
-  .core-values{
+  .core-values {
     display: block !important;
-    h2{
+    h2 {
       margin-bottom: 24px;
     }
   }
-  .Benefits{
-      margin-bottom: 32px !important;
-    }
-    .join-our-team{
-      margin-bottom: 32px !important;
-    }
+  .Benefits {
+    margin-bottom: 32px !important;
+  }
+  .join-our-team {
+    margin-bottom: 32px !important;
+  }
 }
 @media (max-width: 408px) {
-    .about-media {
-        height: 180px !important;
-    }
+  .about-media {
+    height: 180px !important;
+  }
 }
